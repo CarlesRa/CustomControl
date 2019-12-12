@@ -23,7 +23,7 @@ namespace LoginPersonalizado
         private string user;
         private LoginResult resultadoLogin;
 
-        public RoutedLoginEventArgs(RoutedEvent routed,string user, LoginResult resultadoLogin) 
+        public RoutedLoginEventArgs(RoutedEvent routed,string user, LoginResult resultadoLogin) : base(routed)
         {
             this.user = user;
             this.resultadoLogin = resultadoLogin;
