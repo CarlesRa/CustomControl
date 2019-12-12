@@ -1,0 +1,15 @@
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\bin\Debug\LoginPersonalizado.dll
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\bin\Debug\LoginPersonalizado.pdb
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\bin\Debug\Model.dll
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\bin\Debug\Model.pdb
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.csprojAssemblyReference.cache
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\UserControl1.g.cs
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado_MarkupCompile.cache
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado_MarkupCompile.lref
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\UserControl1.baml
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.g.resources
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.Properties.Resources.resources
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.csproj.GenerateResource.cache
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.csproj.CopyComplete
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.dll
+C:\Users\jcram\source\repos\CustomLogin\LoginPersonalizado\obj\Debug\LoginPersonalizado.pdb

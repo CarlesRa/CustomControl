@@ -1,0 +1,13 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomLogin"
+        xmlns:LoginPersonalizado="clr-namespace:LoginPersonalizado;assembly=LoginPersonalizado" x:Class="CustomLogin.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinWidth="261" MinHeight="220">
+    <Viewbox Margin="0,0,-6,1" MinWidth="261" MinHeight="205">
+        <LoginPersonalizado:UserControl1 EsLoginCorrecto="UserControl1_EsLoginCorrecto"/>
+    </Viewbox>
+</Window>

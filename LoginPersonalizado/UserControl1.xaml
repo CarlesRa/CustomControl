@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="LoginPersonalizado.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LoginPersonalizado"
+             mc:Ignorable="d" Height="215.172" Width="300.346">
+    <Grid Margin="-9,0,-2,0" HorizontalAlignment="Right" Width="304">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Margin="0,0,10,0">
+            <Label x:Name="lbLogin" Content="Login:&#xD;&#xA;" Margin="0,0,208,21" Width="42" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <TextBox x:Name="tbLogin" HorizontalAlignment="center" Height="26" Margin="91,26,33,20" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170" FontSize="20"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Label x:Name="lbPasswd" Content="Password:"  Margin="25,12,217,10" Width="auto" Height="auto" RenderTransformOrigin="0.849,0.756"/>
+            <TextBox x:Name="tbPassword"  Margin="92,12,0,13"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Width="170" Height="26" FontSize="20"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Button x:Name="btLogin" Content="Login" Margin="0,0,0,0" Height="24" Width="95" Click="Login_click" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Button x:Name="btCancel" Visibility="Collapsed" Content="Cancel"  Margin="0,0,0,0"  Height="24" Width="95" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="cancel_click"/>
+        </Grid>
+        <Label x:Name="lbTitulo" Content="LOGIN&#xD;&#xA;" Margin="0,0,0,0" Width="120" Height="53" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="36"/>
+    </Grid>
+</UserControl>
