@@ -18,6 +18,7 @@ using System.Windows.Shapes;
 
 namespace LoginPersonalizado
 {
+    #region claseRouted
     public class RoutedLoginEventArgs : RoutedEventArgs
     {
         private string user;
@@ -45,6 +46,7 @@ namespace LoginPersonalizado
             }
         }
     }
+    #endregion
     #region Tipos
     public enum LoginResult
     {
@@ -53,9 +55,7 @@ namespace LoginPersonalizado
         Canceled
     }
     #endregion
-    /// <summary>
-    /// Lógica de interacción para UserControl1.xaml
-    /// </summary>
+    #region Clase Custom Control
     public partial class UserControl1 : UserControl
     {
         private ArrayList personas;
@@ -149,4 +149,5 @@ namespace LoginPersonalizado
             RaiseLoginEvent(user, LoginResult.Canceled);
         }
     }
+    #endregion
 }
