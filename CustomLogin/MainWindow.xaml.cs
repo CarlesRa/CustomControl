@@ -24,7 +24,6 @@ namespace CustomLogin
         public MainWindow()
         {
             InitializeComponent();
-            this.AddHandler(UserControl1.EsLoginCorrectoEvent, new RoutedEventHandler(UserControl1_EsLoginCorrecto));
         }
 
         private void UserControl1_EsLoginCorrecto(object sender, RoutedEventArgs e)
