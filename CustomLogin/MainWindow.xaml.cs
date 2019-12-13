@@ -41,6 +41,10 @@ namespace CustomLogin
                     MessageBox.Show("Login: " + loginArgs.ResultadoLogin
                        + " UserName: " + loginArgs.User);
                 }
+                else if (loginArgs.ResultadoLogin.Equals(LoginResult.Canceled))
+                {
+                    MessageBox.Show("Operation: " + loginArgs.ResultadoLogin);
+                }
             }
         }
     }

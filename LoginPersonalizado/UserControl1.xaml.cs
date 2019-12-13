@@ -68,6 +68,7 @@ namespace LoginPersonalizado
             personas.Add(new Persona("Luis", "2222"));
             personas.Add(new Persona("Maria", "3333"));
             personas.Add(new Persona("Marta", "4444"));
+            
         }
 
         #region MetodoValidar
@@ -75,7 +76,7 @@ namespace LoginPersonalizado
         {
             bool validado = false;
             string user = tbLogin.Text;
-            string clave = tbPassword.Text;
+            string clave = tbPassword.Password;
             string clavePublica = crearHash(user, clave);
 
             foreach (Persona p in personas)
@@ -118,7 +119,8 @@ namespace LoginPersonalizado
             RoutedLoginEventArgs loginArgs = new RoutedLoginEventArgs(EsLoginCorrectoEvent, user, loginR);
             RaiseEvent(loginArgs);
         }
-
+        #endregion
+        #region Metodo crear contraseña cifrada
         public string crearHash(string nombre, string clave)
         {
             byte[] buffer;
@@ -139,8 +141,6 @@ namespace LoginPersonalizado
         private void Login_click(object sender, RoutedEventArgs e)
         {
             validadr();
-            btCancel.Visibility = Visibility.Visible;
-            btLogin.Visibility = Visibility.Collapsed;
         }
 
         private void cancel_click(object sender, RoutedEventArgs e)

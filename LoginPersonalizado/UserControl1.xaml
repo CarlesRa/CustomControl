@@ -13,16 +13,16 @@
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="1" Margin="0,0,10,0">
-            <Label x:Name="lbLogin" Content="Login:&#xD;&#xA;" Margin="0,0,208,21" Width="42" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
-            <TextBox x:Name="tbLogin" HorizontalAlignment="center" Height="26" Margin="91,26,33,20" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170" FontSize="20"/>
+            <Label x:Name="lbLogin" Content="User:&#xA;" Margin="0,0,208,21" Width="42" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <TextBox x:Name="tbLogin" HorizontalAlignment="center" Height="26" Margin="91,26,33,20" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="170" FontSize="20" ToolTip="Enter the User Name"/>
         </Grid>
         <Grid Grid.Row="2">
             <Label x:Name="lbPasswd" Content="Password:"  Margin="25,12,217,10" Width="auto" Height="auto" RenderTransformOrigin="0.849,0.756"/>
-            <TextBox x:Name="tbPassword"  Margin="92,12,0,13"  TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Width="170" Height="26" FontSize="20"/>
+            <PasswordBox x:Name="tbPassword"  Margin="92,12,0,13"  VerticalAlignment="Center" HorizontalAlignment="Left" Width="170" Height="26" FontSize="20" ToolTip="Enter the Password"/>
         </Grid>
         <Grid Grid.Row="3">
-            <Button x:Name="btLogin" Content="Login" Margin="0,0,0,0" Height="24" Width="95" Click="Login_click" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <Button x:Name="btCancel" Visibility="Collapsed" Content="Cancel"  Margin="0,0,0,0"  Height="24" Width="95" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="cancel_click"/>
+            <Button x:Name="btLogin" Content="Login" Margin="31,4,177,1" Height="24" Width="96" Click="Login_click" VerticalAlignment="Center" HorizontalAlignment="Center" ToolTip="Press to Login"/>
+            <Button x:Name="btCancel" Content="Cancel"  Margin="167,3,42,1"  Height="24" Width="95" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="cancel_click" ToolTip="Press to cancell operation"/>
         </Grid>
         <Label x:Name="lbTitulo" Content="LOGIN&#xD;&#xA;" Margin="0,0,0,0" Width="120" Height="53" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="36"/>
     </Grid>

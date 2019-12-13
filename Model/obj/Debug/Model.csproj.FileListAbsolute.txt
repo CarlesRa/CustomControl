@@ -2,3 +2,4 @@ C:\Users\jcram\source\repos\CustomLogin\Model\bin\Debug\Model.dll
 C:\Users\jcram\source\repos\CustomLogin\Model\bin\Debug\Model.pdb
 C:\Users\jcram\source\repos\CustomLogin\Model\obj\Debug\Model.dll
 C:\Users\jcram\source\repos\CustomLogin\Model\obj\Debug\Model.pdb
+C:\Users\jcram\source\repos\CustomLogin\Model\obj\Debug\Model.csprojAssemblyReference.cache
